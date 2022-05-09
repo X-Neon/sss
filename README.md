@@ -22,7 +22,7 @@ struct request
 void do_round_trip(request original_request) {
     std::vector<std::byte> bytes = sss::save(original_request);
     request new_request = sss::load<request>(bytes);
-    assert(original == new_obj);
+    assert(original_request == new_request);
 }
 ```
 
