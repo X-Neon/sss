@@ -1,0 +1,7 @@
+{
+    "dependencies": [
+        "catch2",
+        "boost-core",
+        "boost-pfr"
+    ]
+}
